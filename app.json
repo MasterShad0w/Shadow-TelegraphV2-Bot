@@ -25,7 +25,7 @@
         },
         "UPDATE_CHANNEL": {
             "description": "Channel User Name Without @ Eg-ShadowsArena",
-            "value": "MT_Botz"
+            "value": "ShadowsArena"
         },
         "BOT_OWNER": {
             "description": "Owner Id From @MissRose_bot",
