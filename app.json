@@ -1,0 +1,54 @@
+{
+    "name": "Shadow-TelegraphV2-Bot",
+    "description": "This bot can convert your pics to a web link",
+    "logo": "https://telegra.ph/file/1b71ca9ebb039a8bf98fb.jpg", 
+    "keywords": [
+        "Telegram",
+        "Id",
+        "Bot"
+    ],
+    "website": "https://github.com/MasterShad0w",
+    "repository": "https://github.com/MasterShad0w/Shadow-TelegraphV2-Bot",
+    "success_url": "https://t.me/ShadowTelegraphBot",
+    "env": {
+        "API_ID": {
+            "description": "Your APP ID From ",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash From https://t.me/ShadowScrapperBot",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "Your Bot Token From @BotFather",
+            "value": ""
+        },
+        "UPDATE_CHANNEL": {
+            "description": "Channel User Name Without @ Eg-ShadowsArena",
+            "value": "MT_Botz"
+        },
+        "BOT_OWNER": {
+            "description": "Owner Id From @MissRose_bot",
+            "value": ""
+        },
+        "DATABASE_URL": {
+            "description": "Database From https://www.mongodb.com",
+            "value": ""
+        },
+        "BOT_NAME": {
+            "description": "Your Bot Name From Bot Father",
+            "value": ""
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
